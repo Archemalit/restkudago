@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: restkudago
+base:
+  url:
+    categories: https://kudago.com
+    locations: https://kudago.com
