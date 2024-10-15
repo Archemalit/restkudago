@@ -26,7 +26,7 @@ public class CategoryRestController {
     }
 
     @GetMapping("/{categoryId}")
-    public Category findAllCategories(@PathVariable Long categoryId) {
+    public Category findCategory(@PathVariable Long categoryId) {
         return categoryService.getCategoryById(categoryId);
     }
 
